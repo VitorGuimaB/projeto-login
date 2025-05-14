@@ -8,16 +8,27 @@
 
     h1{
         font-size: 2em;
+        margin: 10px;
     }
 
     p{
-        font-size: 1.2em
+        font-size: 1.2em;
+        margin-top: 50px;
+    }
+
+    form{
+        margin-top: 60px;
     }
 
     #login{
         width: 90vw;
+        height: 400px;
     }
 
+    form > input[type=submit]{
+        margin-top: 30px;
+    }
+/*form > a.botao*/
     #imagem{
         float: right;
         width: 38%;
@@ -33,12 +44,13 @@
 
 @media screen and (min-width: 992px){
     body{
-        background-image: linear-gradient(to top, #100346, #490000);
+        background-image: linear-gradient(to bottom, #100346, #490000);
     }
 
     #login{
         width: 90vw;
         max-width: 800px;
+        height: 400px;
     }
 
     #imagem{
