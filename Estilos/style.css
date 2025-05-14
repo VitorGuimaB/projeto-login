@@ -35,13 +35,13 @@ main{
 h1{
     text-align: center;
     font-size: 1.6em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 p{
     text-align: center;
     font-size: 0.8em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #login{
@@ -70,6 +70,63 @@ p{
 #formulario{
     padding: 10px;
     display: block;
+}
+
+form > div.campo{
+    background-color: #1a004b;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #2c007e;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #1a004b;
+    transition: 0.2s;
+    font-size: 1.05em;
+}
+
+div.campo > label{
+    display: none;
+}
+
+form > a.botao{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: #1a004b ;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 6px;
+}
+
+form > a.botao:hover{
+    background-color: #0a001d;
+    transition: 0.2s;
+}
+
+form > a.botao > span{
+    font-size: 0.8em;
 }
 
 /*#user,#senha{
